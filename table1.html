@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Puja_Nested</title>
+   <style>
+    table{
+        text-align: center;
+    }
+    .first-table{
+        border: 2px solid black;
+    }
+    .second-table{
+        border: 2px solid blue;
+    }
+    td{
+        border: 1px solid black;
+    }
+    </style>
+
+</head>
+<body>
+    <table class="first-table">
+        <tr>
+            <td rowspan="2" class="table1">Table1</td>
+        </tr>
+        <tr>
+            <td colspan="2"  class="table1">Table 1
+            <table class="second-table">
+                <tr>
+                    <td class="table2">Table2</td>
+                    <td class="table 2">Table 2</td>
+                </tr>
+                <tr>
+                <td class="table2">Table2</td>
+                <td class="table 2">Table 2</td>
+             </tr>
+         </table> 
+         </td>      
+        
+        </tr>
+        <tr>
+            <td class="table1">Table1</td>
+            <td colspan="2" class="table1"></td>
+        </tr>
+        </table>
+</body>
+</html>
